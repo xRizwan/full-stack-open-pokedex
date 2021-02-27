@@ -12,10 +12,6 @@ jobs:
       - name: Now it is
         run: |
           date
-
-  list_directory_job:
-    runs-on: ubuntu-18.04
-    steps:
-      - name: Directory List
+      - name: Directory Content
         run: |
           ls
