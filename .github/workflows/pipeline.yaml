@@ -35,3 +35,4 @@ jobs:
           heroku_email: "stormchtest@gmail.com"
           healthcheck: "https://actions-pokedex.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
